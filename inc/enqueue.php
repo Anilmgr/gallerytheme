@@ -7,4 +7,4 @@ function gallery_assets(){
 	wp_enqueue_script('bootstrap-script', get_template_directory_uri(). '/assets/js/bootstrap.min.js', array('jquery'), '4.3.1', false);
 }	
 
-add_action('wp_enqueue_scripts', 'gallery_assets')
+add_action('wp_enqueue_scripts', 'gallery_assets');
