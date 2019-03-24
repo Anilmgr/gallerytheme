@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset 'UTF-8';
 /*
 Theme Name: T-Gallery  
 Theme URI: https://github.com/Anilmgr/gallerytheme
@@ -10,6 +10,9 @@ License: MIT license
 License URI: https://github.com/Anilmgr/gallerytheme/blob/master/LICENSE
 Text Domain: gallerytheme
 */
+
+@import url('https://fonts.googleapis.com/css?family=Arizonia');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
 
 /*
 ----------------------------------------------------------------
@@ -30,5 +33,27 @@ Text Domain: gallerytheme
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
+
+.brand-logo{
+  font-family: 'Arizonia', cursive;
+  color: #252525;
+  font-size: 70px;
+}
+
+.brand-logo:hover, .nav-item a:hover{
+  color: #909090;
+}
+
+.navbar{
+  background: #fff;
+}
+
+.nav-item a {
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 22px;
+  color: #252525;
+}
+
+
 
 
